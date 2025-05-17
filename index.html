@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>私の初めてのウェブサイト</title>
-    <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <title>サンプルECサイト</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="body">
-    <h1 class="h1">こんにちは、unixo1です！</h1>
-    <p>これは私の初めてのHTMLウェブサイトです。</p>
+<body>
+
+  <header>
+    <h1>ECショップ</h1>
+    <nav>
+      <a href="#">ホーム</a>
+      <a href="#">商品一覧</a>
+      <a href="#">カート</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>おすすめ商品</h2>
+    <div class="product-list">
+      
+      <div class="product">
+        <img src="https://plus.unsplash.com/premium_photo-1670950411934-e21abf39191e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fCVFMyU4MyU4NiVFMyU4MyVCQyVFMyU4MyU5NiVFMyU4MyVBQnxlbnwwfHwwfHx8MA%3D%3D"/>
+        <h3>テーブル</h3>
+        <p>木のぬくもりを感じるシンプルなテーブル。食卓や作業机に最適。</p>
+        <p class="price">¥12,800</p>
+        <button>カートに追加</button>
+      </div>
+
+      <div class="product">
+        <img src="https://plus.unsplash.com/premium_photo-1683121277107-f24f09361d95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"/>
+        <h3>ソファ</h3>
+        <p>2人でゆったり座れるふかふかソファ。お部屋をやさしく彩ります。</p>
+        <p class="price">¥29,800</p>
+        <button>カートに追加</button>
+      </div>
+
+      <div class="product">
+        <img src="https://plus.unsplash.com/premium_photo-1683133939183-edd5476e6200?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fCVFMyU4MyU4MSVFMyU4MiVBNyVFMyU4MiVBMnxlbnwwfHwwfHx8MA%3D%3D"/>
+        <h3>チェア</h3>
+        <p>ナチュラルな木製チェア。どんなインテリアにもぴったり。</p>
+        <p class="price">¥6,500</p>
+        <button>カートに追加</button>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1593085260707-5377ba37f868?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8JUUzJTgyJUI3JUUzJTgyJUE3JUUzJTgzJUFCJUUzJTgzJTk1fGVufDB8fDB8fHww"/>
+        <h3>シェルフ</h3>
+        <p>本や小物をすっきり収納。スリムで省スペースにも対応。</p>
+        <p class="price">¥9,900</p>
+        <button>カートに追加</button>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ECショップ</p>
+  </footer>
+
 </body>
 </html>
